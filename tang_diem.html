@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Student {
+        name ;
+        point;
+        constructor(name , point) {
+            this.name = name;
+            this.point = point;
+        }
+        do_homework(){
+            this.point +=2
+        }
+        pin_notes(){
+            this.point++
+        }
+        give_points(someOne,x){
+            this.point -=x;
+            someOne.point +=x;
+        }
+
+    }
+    get
+
+
+    getScore(){
+        return this.score;
+    }
+    }
+    let hocVien1 = new Hocvien("Văn A",50);
+    let hocVien2 = new Hocvien("Thị B",99);
+    hocVien1.choDiem(hocVien2,1);
+    console.log(hocVien1.getScore());
+
+
+</script>
+</body>
+</html>

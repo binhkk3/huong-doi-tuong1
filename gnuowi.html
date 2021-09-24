@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class People {
+        name;
+        height;
+        weight;
+        constructor(a,b,c) {
+            this.name = a
+            this.height =b
+            this.weight = c
+        }
+        greeting (x){
+            alert(x);
+        }
+        learn (){
+            alert('học nữa học mãi');
+        }
+    }
+    let peoPle1 = new People('bình','1m78','84kg');
+
+    let peoPle2 = new People('lươn như anh','1m5','50kg');
+    document.write(peoPle1.name+ '<br>'+ peoPle1.height)
+    document.write(peoPle2.name)
+    peoPle1.greeting('ờ');
+</script>
+</body>
+</html>
